@@ -1,0 +1,58 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: url(../assets/imagens/imgEscolhaPilula.png);
+    background-size: 1700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #D9D9D9;
+    
+    
+   }
+
+#pilulas{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+#azul{
+    width: 100px;
+    position: relative;
+    right: 65px;
+    top: 30px;
+    transform: rotate(15deg);
+    
+    
+
+
+}
+#vermelho{
+    width: 100px;
+    position: relative;
+    top: 30px;
+    transform: rotate(-15deg);
+    left: 10px;
+    
+    
+
+
+}
+
+.principalEscolha{
+
+    height: 100vh;
+    margin: 0;
+    
+  
+
+}
+
